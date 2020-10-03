@@ -10,6 +10,7 @@ let rawdata = fs.readFileSync('budget-data.json');
 let myBudget = JSON.parse(rawdata);
 console.log(myBudget);
 
+
 /*const budget = {
     myBudget: [
     {
